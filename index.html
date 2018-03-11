@@ -32,24 +32,20 @@
         "type": "geojson",
         "data": {
           "type": "FeatureCollection",
+
           "features": [{
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": [76.202984880656,
+              "coordinates": [          76.202984880656,
                 10.213108182237761]
               },
               "properties": {
-                "@id": 4722072122,
-                "@type": "node",
-                "@version": 2,
-                "@changeset": 46657980,
-                "@uid": 2024553,
-                "@user": "muzirian",
-                "@timestamp": 1488908534,
+
                 "name": "Cheraman Malik Orphanage",
                 "amenity": "social_facility",
-                "social_facility:for": "orphan"
+                "social_facility:for": "orphan",
+                "icon": "monument"
               }
             }, {
               "type": "Feature",
@@ -59,28 +55,16 @@
                   19.915951654184965]
                 },
                 "properties": {
-                  "@id": 3125244982,
-                  "@type": "node",
-                  "@version": 3,
-                  "@changeset": 26018157,
-                  "@uid": 2394301,
-                  "@user": "Prakash43",
-                  "@timestamp": 1413090507,
+
                   "name": "My home Prakash Kashid",
-                  "phone": "9404082694",
                   "amenity": "social_facility",
-                  "operator": "prakash",
                   "addr:city": "aurangabad",
-                  "wheelchair": "yes",
-                  "addr:street": "jatwada road near harsul",
-                  "addr:postcode": "4311001",
                   "social_facility": "group_home",
                   "social_facility:for": "disabled",
-                  "social_facility_for": "senior"
+                  "social_facility_for": "senior",
+                  "icon": "monument"
                 }
-              }]
-            }
-          },
+              },
           {
             "type": "Feature",
             "geometry": {
@@ -89,27 +73,17 @@
           16.887211778643234]
               },
               "properties": {
-                "marker-color": "#7e7e7e",
-                 "marker-size": "medium",
-                 "marker-symbol": "",
-                 "@id": 3525011649,
-                 "@type": "node",
-                 "@version": 1,
-                 "@changeset": 31247075,
-                 "@uid": 2923022,
-                 "@user": "boppanisony17",
-                 "@timestamp": 1431934674,
+
                  "name": "venkataya vyavastha",
                  "amenity": "social_facility",
                  "operator": "venkataya",
                  "wheelchair": "yes",
                  "addr:street": "pathabazar",
                  "social_facility": "shelter",
-                 "social_facility:for": "orphan"
+                 "social_facility:for": "orphan",
+                 "icon": "monument"
               }
-            }]
-          }
-        },
+            },
         {
           "type": "Feature",
           "geometry": {
@@ -118,27 +92,27 @@
           11.986946619916694]
             },
             "properties": {
-              "@id": 582987219,
-              "@type": "node",
-              "@version": 2,
-              "@changeset": 25024774,
-              "@uid": 838350,
-              "@user": "Azhaa",
-              "@timestamp": 1409051308,
+
               "name": "Deepam",
               "amenity": "social_facility",
               "addr:city": "Auroville",
               "addr:country": "IN",
-              "contact:website": "http://www.deepam-auroville.in",
               "social_facility": "outreach",
-              "social_facility:for": "disabled"
-
-          }]
-        }
-      },
+              "social_facility:for": "disabled",
+              "icon": "monument"
+          }
+        }],
+      }
+    }
       "layout": {
         "icon-image": "{icon}-15",
         "text-field": "{title}",
+        "text-field": "{name}",
+        "text-field":"{amenity}",
+        "text-field": "{addr:city}",
+        "text-field": "{addr:country}",
+        "text-field": "{social_facility}",
+          "text-field": "{social_facility:for}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
         "text-offset": [0, 0.6],
         "text-anchor": "top"
@@ -146,5 +120,5 @@
     });
   });
   </script>
-  </body>
+</body>
 </html>
