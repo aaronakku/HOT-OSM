@@ -1,2 +1,3 @@
-# HOT-OSM
-My first Contribution 
+Humanitarian OpenStreetMap
+
+
