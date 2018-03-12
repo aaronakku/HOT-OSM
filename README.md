@@ -21,7 +21,14 @@ Along with this project I have learned to build Tile Server using the mbtiles of
   
 ` https://osmlab.github.io/osm-qa-tiles/country.html`
 
+The link used within index.html point to india.mbtiles file
+you can say download india.mbtiles file from
+
+Link: https://osmlab.github.io/osm-qa-tiles/country.htm
+ 
 (Commands to be pasted onto Terminal)
+
+`wget <link to india.mbtiles>`
 
 ```
 sudo apt-get update
@@ -41,7 +48,8 @@ cd osm-tag-stats
 Save the filter JSON file in the same folder as the corresponding country’s mbtiles file.
 * Name of the filter JSON file: filter.json[(here)](https://github.com/aaronakku/HOT-OSM/blob/master/filter.json)
 * Command:
-` osm-tag-stats — geojson=results.geojson — mbtiles=”india.mbtiles” — filter=’filter.json’ — count `
+
+  ` osm-tag-stats --geojson=results.geojson --mbtiles="india.mbtiles" --filter='filter.json' --count `
 
 Once you’re done with the second command, copy paste the contents of results.geojson on https://geojson.io.
 
