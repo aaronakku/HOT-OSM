@@ -42,5 +42,4 @@ Once you’re done with the second command, copy paste the contents of results.g
 
 **Visualizing map using the help of Mapbox GL using the data extracted:**
 
-
-Visualized final map
+Visualized final map[(here)](https://github.com/aaronakku/HOT-OSM/blob/master/OSM.png)
