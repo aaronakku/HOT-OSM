@@ -53,6 +53,6 @@ Save the filter JSON file in the same folder as the corresponding country’s mb
 
 Once you’re done with the second command, copy paste the contents of results.geojson on https://geojson.io.
 
-**Visualizing map using the help of Mapbox GL using the data extracted:**
+**Visualizing map with the help of Mapbox GL using the data extracted:**
 
-Visualized final map[(here)](https://github.com/aaronakku/HOT-OSM/blob/master/OSM.png)
+Visualized final map[(here)](https://github.com/aaronakku/aaronakku/blob/master/README.md)
