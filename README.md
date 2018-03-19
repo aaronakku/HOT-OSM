@@ -56,3 +56,14 @@ Once you’re done with the second command, copy paste the contents of results.g
 **Visualizing map with the help of Mapbox GL using the data extracted:**
 
 Visualized final map[(here)](https://github.com/aaronakku/aaronakku/blob/master/README.md)
+
+## The Making Of Reusable Map
+Once the data extracted , clubbing the result of extracted data on to an html page[(index.html)](https://github.com/aaronakku/HOT-OSM/blob/master/index.html) is to be done.
+With help of Mapbox ,using the following example[(here)](https://www.mapbox.com/mapbox-gl-js/example/simple-map/).
+and for additional reference the following links were refereed :
+```
+https://www.mapbox.com/mapbox-gl-js/style-spec/#layers
+
+https://www.mapbox.com/mapbox-gl-js/api/
+```
+It contains the basic code to display a Map and combining the Extracted data results in creating the [reusable map](https://aaronakku.github.io/aaronakku/INTERACTIVE-MAP/).
