@@ -11,7 +11,7 @@ Along with this project I have learned to build Tile Server using the mbtiles of
 
 1.  Extract Data based on OSM Tag.
 2.  Used the extracted data and mapped with help of Mapbox GL.
-3.  Visualized Map by making Tile Server(Click [Here](https://medium.com/@snehamariamsanthosh/making-of-tile-server-2ba9d397acc)
+3.  Visualized Map by making Tile Server(Click [Here](https://medium.com/@snehamariamsanthosh/making-of-tile-server-2ba9d397acc))
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ sudo apt-get update
 
 sudo apt-get install git-core
 
-git — version
+git --version
 
 git clone https://github.com/mapbox/osm-tag-stats.git
 
