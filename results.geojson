@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.342459641397,
+          19.915951654184965
+        ]
+      },
+      "properties": {
+        "@id": 3125244982,
+        "@type": "node",
+        "@version": 3,
+        "@changeset": 26018157,
+        "@uid": 2394301,
+        "@user": "Prakash43",
+        "@timestamp": 1413090507,
+        "name": "My home Prakash Kashid",
+        "phone": "9404082694",
+        "amenity": "social_facility",
+        "operator": "prakash",
+        "addr:city": "aurangabad",
+        "wheelchair": "yes",
+        "addr:street": "jatwada road near harsul",
+        "addr:postcode": "4311001",
+        "social_facility": "group_home",
+        "social_facility:for": "disabled",
+        "social_facility_for": "senior"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.202984880656,
+          10.213108182237761
+        ]
+      },
+      "properties": {
+        "@id": 4722072122,
+        "@type": "node",
+        "@version": 2,
+        "@changeset": 46657980,
+        "@uid": 2024553,
+        "@user": "muzirian",
+        "@timestamp": 1488908534,
+        "name": "Cheraman Malik Orphanage",
+        "amenity": "social_facility",
+        "social_facility:for": "orphan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83481977134943,
+          11.986946619916694
+        ]
+      },
+      "properties": {
+        "@id": 582987219,
+        "@type": "node",
+        "@version": 2,
+        "@changeset": 25024774,
+        "@uid": 838350,
+        "@user": "Azhaa",
+        "@timestamp": 1409051308,
+        "name": "Deepam",
+        "amenity": "social_facility",
+        "addr:city": "Auroville",
+        "addr:country": "IN",
+        "contact:website": "http://www.deepam-auroville.in",
+        "social_facility": "outreach",
+        "social_facility:for": "disabled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8803845513612,
+          16.887211778643234
+        ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "@id": 3525011649,
+        "@type": "node",
+        "@version": 1,
+        "@changeset": 31247075,
+        "@uid": 2923022,
+        "@user": "boppanisony17",
+        "@timestamp": 1431934674,
+        "name": "venkataya vyavastha",
+        "amenity": "social_facility",
+        "operator": "venkataya",
+        "wheelchair": "yes",
+        "addr:street": "pathabazar",
+        "social_facility": "shelter",
+        "social_facility:for": "orphan"
+      }
+    }
+  ]
+}
