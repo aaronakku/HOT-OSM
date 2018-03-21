@@ -9,9 +9,9 @@ Along with this project I have learned to build Tile Server using the mbtiles of
 
 ## Things i have done
 
-1.  Extract Data based on OSM Tag.
+1.  Extract data based on OSM tag.
 2.  Used the extracted data and mapped with help of Mapbox GL.
-3.  Visualized Map by making Tile Server(Click [Here](https://medium.com/@snehamariamsanthosh/making-of-tile-server-2ba9d397acc))
+3.  Visualized map by making Tile Server(Click [Here](https://medium.com/@snehamariamsanthosh/making-of-tile-server-2ba9d397acc))
 
 ## Prerequisites
 
@@ -53,6 +53,8 @@ Save the filter JSON file in the same folder as the corresponding country’s mb
 
 Once you’re done with the second command, copy paste the contents of results.geojson on https://geojson.io.
 
+An Overview of extracted data([here](https://github.com/aaronakku/HOT-OSM/blob/master/results.geojson))
+
 **Visualizing map with the help of Mapbox GL using the data extracted:**
 
 Visualized final map[(here)](https://github.com/aaronakku/aaronakku/blob/master/README.md)
@@ -66,4 +68,4 @@ https://www.mapbox.com/mapbox-gl-js/style-spec/#layers
 
 https://www.mapbox.com/mapbox-gl-js/api/
 ```
-It contains the basic code to display a Map and combining the Extracted data results in creating the [reusable map](https://aaronakku.github.io/aaronakku/INTERACTIVE-MAP/).
+It contains the basic code to display a map and combining the extracted data results in creating the [reusable map](https://aaronakku.github.io/aaronakku/INTERACTIVE-MAP/).
